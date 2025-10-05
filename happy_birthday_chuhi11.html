@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday Chuhi</title>
+  <style>
+    body {
+      background-color: #ffdde6;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      text-align: center;
+      padding: 30px;
+      overflow: hidden;
+    }
+    h1 {
+      font-size: 40px;
+      color: #e60073;
+      text-shadow: 2px 2px #fff0f5;
+      animation: glow 2s infinite alternate;
+    }
+    p {
+      font-size: 22px;
+      color: #800040;
+    }
+    .signature {
+      position: fixed;
+      bottom: 10px;
+      right: 20px;
+      font-size: 18px;
+      color: #ff3399;
+      font-weight: bold;
+    }
+    img {
+      margin-top: 20px;
+      max-width: 400px;
+      border: 5px solid white;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    }
+    .floating {
+      position: absolute;
+      bottom: -100px;
+      font-size: 30px;
+      animation: floatUp 8s infinite ease-in;
+      opacity: 0.8;
+    }
+    @keyframes floatUp {
+      0% { transform: translateY(0); opacity: 0.8; }
+      50% { opacity: 1; }
+      100% { transform: translateY(-110vh); opacity: 0; }
+    }
+    @keyframes glow {
+      from { text-shadow: 0 0 10px #ff66b2, 0 0 20px #ff99cc; }
+      to { text-shadow: 0 0 20px #ff3399, 0 0 40px #ff66b2; }
+    }
+  </style>
+</head>
+<body>
+  <h1>HAPPYYY BIRTHDAYYY CHUHI...💗</h1>
+  <p>WISHING YOU AN YEAR FULL OF ACCHE MEMORIES AND HAPPINESS..</p>
+  
+  <img src="birthday_image.jpg" alt="Birthday Picture">
+  
+  <div class="signature">
+    YOUR GOLU MOLU PIGGY..🐷
+  </div>
+
+  <!-- Floating hearts and balloons -->
+  <div class="floating" style="left:10%;">💗</div>
+  <div class="floating" style="left:25%; animation-delay:2s;">🎈</div>
+  <div class="floating" style="left:40%; animation-delay:4s;">💗</div>
+  <div class="floating" style="left:55%; animation-delay:1s;">🎈</div>
+  <div class="floating" style="left:70%; animation-delay:3s;">💗</div>
+  <div class="floating" style="left:85%; animation-delay:5s;">🎈</div>
+</body>
+</html>
